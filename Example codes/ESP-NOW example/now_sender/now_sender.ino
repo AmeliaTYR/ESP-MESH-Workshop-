@@ -66,7 +66,7 @@ void setup() {
  
 void loop() {
   // Set values to send
-  strcpy(myData.a, "THIS IS A CHAR");
+  strcpy(myData.a, "THIS IS potato");
   myData.b = random(1,20);
   myData.c = 1.2;
   myData.d = false;

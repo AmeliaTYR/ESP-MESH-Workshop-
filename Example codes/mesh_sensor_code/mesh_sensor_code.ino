@@ -20,7 +20,7 @@ Task taskSendMessage( TASK_SECOND * 1 , TASK_FOREVER, &sendMessage );
 
 void sendMessage() {
 
-  String msg = "My temperature is ";
+  String msg = "Potato temperature is ";
   msg += sensor0.readTempC();
   msg += "C\n";
   Serial.print(msg);
